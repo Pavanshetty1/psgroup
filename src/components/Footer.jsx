@@ -69,9 +69,10 @@ function Footer() {
         <div className="footer-col">
           <h4>CAREERS & INFO</h4>
           <a href="/careers">Careers</a>
-          <a href="#">Leadership Programs</a>
-          <a href="#">Partner With Us</a>
-          <a href="#">Compliance</a>
+            <a href="/privacy">Privacy Policy</a>
+            <a href="/terms">Terms & Conditions</a>
+            <a href="/refund">Refund Policy</a>
+            <a href="/shipping-policy">Shipping Policy</a>
         </div>
 
         <div className="footer-newsletter">
