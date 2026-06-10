@@ -1,0 +1,271 @@
+.business-section {
+  padding: 60px 70px;
+  background: #f6f6f6;
+}
+
+.business-header {
+  max-width: 760px;
+  margin-bottom: 55px;
+}
+
+.business-header span {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #777;
+}
+
+.business-header h2 {
+  margin: 16px 0;
+  font-size: 46px;
+  line-height: 1.2;
+  color: #111;
+}
+
+.business-header p {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #555;
+}
+
+/* BUSINESS CARDS */
+.business-grid {
+  display: flex;
+  gap: 18px;
+  height: 430px;
+}
+
+.business-card {
+  flex: 1;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  background: #111;
+  transition: flex 0.65s ease;
+}
+
+.business-grid:hover .business-card {
+  flex: 0.55;
+}
+
+.business-grid .business-card:hover {
+  flex: 3;
+}
+
+.business-card img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  opacity: 0.45;
+  filter: grayscale(60%);
+  transform: scale(1.08);
+
+  transition: 0.7s ease;
+}
+
+.business-card:hover img {
+  opacity: 1;
+  filter: grayscale(0%);
+  transform: scale(1);
+}
+
+.business-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+
+  background: linear-gradient(
+    to top,
+    rgba(6, 23, 53, 0.95),
+    rgba(6, 23, 53, 0.45),
+    rgba(6, 23, 53, 0.12)
+  );
+}
+
+.business-overlay {
+  position: absolute;
+  left: 26px;
+  right: 26px;
+  bottom: 28px;
+  z-index: 3;
+  color: white;
+}
+
+.business-logo {
+  width: 90px;
+  height: auto;
+
+  margin-bottom: 14px;
+
+  opacity: 0;
+  transform: translateY(15px);
+
+  transition: 0.4s ease;
+}
+
+.business-card:hover .business-logo {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.business-no {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #cbd5e1;
+}
+
+.business-overlay h3 {
+  font-size: 24px;
+  margin-bottom: 12px;
+  white-space: nowrap;
+  transition: 0.4s ease;
+}
+
+.business-overlay p {
+  max-width: 360px;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #e5edf7;
+
+  opacity: 0;
+  transform: translateY(16px);
+  transition: 0.4s ease;
+}
+
+.business-overlay button {
+  margin-top: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  background: transparent;
+  color: white;
+  padding: 10px 18px;
+  cursor: pointer;
+
+  opacity: 0;
+  transform: translateY(16px);
+  transition: 0.35s ease;
+}
+
+.business-card:hover .business-overlay p,
+.business-card:hover .business-overlay button {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.business-overlay button:hover {
+  background: white;
+  color: #132947;
+  transform: translateY(-2px);
+}
+
+.business-grid:hover .business-card:not(:hover) .business-overlay h3 {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 18px;
+}
+
+.business-grid:hover .business-card:not(:hover) .business-overlay {
+  left: 50%;
+  right: auto;
+  bottom: 28px;
+  transform: translateX(-50%);
+}
+
+.business-grid:hover .business-card:not(:hover) .business-no,
+.business-grid:hover .business-card:not(:hover) .business-overlay p,
+.business-grid:hover .business-card:not(:hover) .business-overlay button {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .business-section {
+    padding: 50px 18px;
+  }
+
+  .business-header {
+    margin-bottom: 30px;
+  }
+
+  .business-header h2 {
+    font-size: 30px;
+  }
+
+  .business-header p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .business-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+    height: auto;
+  }
+
+  .business-card {
+    height: 280px;
+    flex: unset !important;
+  }
+
+  .business-card img {
+    opacity: 0.85;
+    filter: none;
+    transform: scale(1);
+  }
+
+  .business-overlay {
+    left: 18px;
+    right: 18px;
+    bottom: 18px;
+  }
+
+  .business-overlay h3 {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+
+  .business-overlay p {
+    opacity: 1;
+    transform: none;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .business-overlay button {
+    opacity: 1;
+    transform: none;
+    margin-top: 12px;
+    padding: 9px 14px;
+    font-size: 13px;
+  }
+
+  .business-grid:hover .business-card,
+  .business-grid .business-card:hover {
+    flex: unset;
+  }
+
+  .business-grid:hover .business-card:not(:hover) .business-overlay {
+    left: 18px;
+    right: 18px;
+    bottom: 18px;
+    transform: none;
+  }
+
+  .business-grid:hover .business-card:not(:hover) .business-overlay h3 {
+    writing-mode: unset;
+    transform: none;
+    font-size: 22px;
+  }
+
+  .business-grid:hover .business-card:not(:hover) .business-overlay p,
+  .business-grid:hover .business-card:not(:hover) .business-overlay button {
+    display: block;
+  }
+}

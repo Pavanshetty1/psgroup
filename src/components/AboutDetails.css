@@ -1,0 +1,168 @@
+.about-details-page {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.about-details-hero {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-end;
+  padding-bottom: 100px;
+}
+.about-gif {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-hero-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.about-details-overlay {
+  position: absolute;
+  inset: 0;
+  /* background: rgba(0, 0, 0, 0.55); */
+  background: rgb(27 111 146 / 34%);
+}
+
+.about-details-content {
+  position: relative;
+  z-index: 2;
+  max-width: 850px;
+  padding: 0 70px;
+  color: white;
+}
+
+.about-details-content span,
+.who-content span {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #d8d8d8;
+}
+
+.about-details-content h1 {
+  margin: 18px 0;
+  font-size: 58px;
+  line-height: 1.15;
+}
+
+.about-details-content p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #e0e0e0;
+}
+
+.who-section {
+  padding: 60px 70px;
+  background: #fff;
+}
+
+.who-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+  align-items: center;
+}
+
+.who-content span {
+  color: #777;
+}
+
+.who-content h2 {
+  margin: 18px 0 24px;
+  font-size: 46px;
+  line-height: 1.2;
+  color: #111;
+}
+
+.who-content p {
+  font-size: 17px;
+  line-height: 1.9;
+  color: #555;
+  margin-bottom: 18px;
+}
+
+.who-image img {
+  width: 100%;
+  height: 560px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+@media (max-width: 768px) {
+  .about-details-hero {
+    height: 80vh;
+    padding-bottom: 60px;
+  }
+
+  .about-gif {
+    object-position: center;
+  }
+
+  .about-details-content {
+    padding: 0 18px;
+    max-width: 100%;
+  }
+
+  .about-details-content h1 {
+    font-size: 34px;
+    line-height: 1.18;
+  }
+
+  .about-details-content p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .who-section {
+    padding: 50px 18px;
+  }
+
+  .who-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .who-content h2 {
+    font-size: 30px;
+  }
+
+  .who-content p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .who-image img {
+    height: 300px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-details-hero {
+    height: 72vh;
+  }
+
+  .about-details-content h1 {
+    font-size: 30px;
+  }
+
+  .who-content h2 {
+    font-size: 27px;
+  }
+
+  .who-image img {
+    height: 260px;
+  }
+}
