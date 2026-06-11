@@ -3,8 +3,7 @@ import Leadership from "./Leadership";
 import Values from "./Values";
 import VisionMission from "./VisionMission";
 import videoabout from "../assets/about.gif";
-import who from "../assets/who.jfif";
-
+import who from "../assets/who.JPG";
 
 function AboutDetails() {
   return (

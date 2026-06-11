@@ -27,22 +27,35 @@ function Navbar() {
 
       <div className={`navbar-right ${menuOpen ? "active" : ""}`}>
         <nav className="navbar-links">
-          <Link to="/" onClick={closeMenu}>Home</Link>
-          <Link to="/about" onClick={closeMenu}>About</Link>
-          <Link to="/businesses" onClick={closeMenu}>Businesses</Link>
-          <Link to="/careers" onClick={closeMenu}>Careers</Link>
+          <Link to="/" onClick={closeMenu}>
+            Home
+          </Link>
+          <Link to="/about" onClick={closeMenu}>
+            About
+          </Link>
+          <Link to="/businesses" onClick={closeMenu}>
+            Businesses
+          </Link>
+          <Link to="/careers" onClick={closeMenu}>
+            Careers
+          </Link>
 
-          <Link to="/" onClick={goToContact}>Contact</Link>
+          <Link to="/" onClick={goToContact}>
+            Contact
+          </Link>
 
-          <Link to="/" className="find-more" onClick={closeMenu}>
+          <Link to="/businesses" className="find-more" onClick={closeMenu}>
             Find Out More
           </Link>
         </nav>
 
-        <button className="search-icon-btn" onClick={() => {
-          closeMenu();
-          navigate("/search");
-        }}>
+        <button
+          className="search-icon-btn"
+          onClick={() => {
+            closeMenu();
+            navigate("/search");
+          }}
+        >
           <FiSearch />
         </button>
       </div>

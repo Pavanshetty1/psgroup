@@ -1,5 +1,5 @@
 import "./Leadership.css";
-import founder from "../assets/founder.webp";
+import founder from "../assets/direct.png";
 
 const leaders = [
   {
@@ -34,46 +34,46 @@ function Leadership() {
         ))}
       </div> */}
       <div className="leadership-grid">
-  <div className="leader-card" data-aos="fade-right">
-    <img src={founder} alt="B S Prashanth Shetty" />
+        <div className="leader-card" data-aos="fade-right">
+          <img src={founder} alt="B S Prashanth Shetty" />
 
-    <div className="leader-info">
-      <h3>B S Prashanth Shetty</h3>
-      <p>Founder</p>
-    </div>
-  </div>
+          <div className="leader-info">
+            <h3>B S Prashanth Shetty</h3>
+            <p>Founder</p>
+          </div>
+        </div>
 
-  <div
-    className="leader-message"
-    data-aos="fade-left"
-    data-aos-delay="200"
-  >
-    <span>FOUNDER'S MESSAGE</span>
+        <div
+          className="leader-message"
+          data-aos="fade-left"
+          data-aos-delay="200"
+        >
+          <span>FOUNDER'S MESSAGE</span>
 
-    <h3>
-      "Success is built on trust, commitment and the courage to create
-      opportunities where others see challenges."
-    </h3>
+          <h3>
+            "Success is built on trust, commitment and the courage to create
+            opportunities where others see challenges."
+          </h3>
 
-    {/* <p>
+          {/* <p>
       PS Group was founded with a vision to build businesses that create
       meaningful value for customers, employees and communities. What began
       as a single initiative has evolved into a diversified group driven by
       innovation, integrity and long-term growth.
     </p> */}
 
-    {/* <p>
+          {/* <p>
       As we continue to expand across industries, our commitment remains the
       same — delivering excellence, fostering strong relationships and
       creating sustainable impact for future generations.
     </p> */}
 
-    <div className="leader-sign">
-      <h4>B S Prashanth Shetty</h4>
-      <p>Founder, PS Group</p>
-    </div>
-  </div>
-</div>
+          <div className="leader-sign">
+            <h4>B S Prashanth Shetty</h4>
+            <p>Founder, PS Group</p>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }

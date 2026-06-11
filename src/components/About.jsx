@@ -1,10 +1,9 @@
 import "./About.css";
-import who2 from "../assets/one.JPG";
-import who1 from "../assets/two.jpeg";
-import who3 from "../assets/three.jpeg";
-import who4 from "../assets/four.jpeg";
-import who5 from "../assets/five.jpeg";
-import who6 from "../assets/six.jpeg";
+import who1 from "../assets/one.JPG";
+import who2 from "../assets/two.JPG";
+import who3 from "../assets/three.JPG";
+import who4 from "../assets/four.JPG";
+import who5 from "../assets/five.JPG";
 
 import { useNavigate } from "react-router-dom";
 function About() {
@@ -38,36 +37,19 @@ function About() {
           </button>
         </div>
 
-        {/* <div className="about-image">
-          <img
-            src={who1}
-            // src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80"
-            alt="PS Group"
-          />
-        </div> */}
-        {/* <div className="about-image">
+        <div className="about-image">
           <div className="about-collage">
-            {[who1, who2, who3, who4, who6].map((img, index) => (
-              <div className="collage-img" key={index}>
+            {[who1, who2, who3, who4, who5].map((img, index) => (
+              <div
+                className="collage-img"
+                key={index}
+                style={{ animationDelay: `${index * 2}s` }}
+              >
                 <img src={img} alt={`PS Group ${index + 1}`} />
-                <img src={img} alt="" />
               </div>
             ))}
           </div>
-        </div> */}
-        <div className="about-image">
-  <div className="about-collage">
-    {[who1, who2, who3, who4, who6].map((img, index) => (
-      <div
-        className="collage-img"
-        key={index}
-        style={{ animationDelay: `${index * 2}s` }}
-      >
-        <img src={img} alt={`PS Group ${index + 1}`} />
-      </div>
-    ))}
-  </div>
-</div>
+        </div>
       </div>
     </section>
   );

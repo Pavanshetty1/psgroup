@@ -6,12 +6,12 @@ import { useNavigate } from "react-router-dom";
 
 const insights = [
   {
-    slug: "building-businesses-through-vision",
+    slug: "jesta-healthcare-expansion",
     image:
-      "https://media.istockphoto.com/id/2193065392/photo/young-business-professionals-collaborating-in-a-modern-meeting-room.webp?a=1&b=1&s=612x612&w=0&k=20&c=Y_bBV3QOniNMQ2WGLu0FwymTEqs_4Yiw6v0mWfFPYiY=",
-    category: "Leadership",
-    title: "Building Businesses Through Vision and Purpose",
-    desc: "How long-term thinking, trust and strong leadership create sustainable growth across diverse industries.",
+      "https://lh3.googleusercontent.com/MMJYgn7GnsvKe-UxdlXs_yoiL8n4bnyL131ECkg9ZDtn0TUxf8mhCF6kA5iBb3nL5gPICcpVdqXfCxK29OhQSo0pzYo=w1600-rw",
+    category: "Healthcare",
+    title: "Jesta Healthcare Marks Another Milestone in Growth",
+    desc: "The company continues its journey of delivering trusted healthcare solutions while strengthening its presence and service capabilities.",
   },
 
   {

@@ -85,7 +85,7 @@
   object-fit: cover;
 
   /* slight zoom */
-  transform: scale(1.08);
+  /* transform: scale(1.08); */
 
   /* start black & white */
   filter: grayscale(100%);

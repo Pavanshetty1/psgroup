@@ -1,39 +1,44 @@
 export const insights = [
   {
-    slug: "building-businesses-through-vision",
+    slug: "jesta-healthcare-expansion",
 
-    image: "https://images.pexels.com/photos/7078666/pexels-photo-7078666.jpeg",
+    image:
+      "https://png.pngtree.com/thumb_back/fh260/background/20240426/pngtree-a-doctor-examining-patient-vital-signs-in-medical-office-image_15672199.jpg",
 
     articleImage:
-      "https://images.pexels.com/photos/33935830/pexels-photo-33935830.jpeg",
+      "https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg",
 
-    category: "Leadership",
-    title: "Building Businesses Through Vision and Purpose",
-    desc: "Creating sustainable growth through strong leadership and long-term thinking.",
+    category: "Healthcare",
+
+    title:
+      "Jesta Healthcare Explores New Opportunities for Healthcare Innovation",
+
+    desc: "Building on a decade of trust, Jesta Healthcare is evaluating new product categories to support hospitals with innovative and accessible healthcare solutions.",
 
     highlights: [
       {
-        title: "Clear Vision",
-        text: "Every strong business starts with direction and purpose.",
+        title: "10+ Years of Trust",
+        text: "Serving healthcare institutions across Karnataka since 2014.",
       },
       {
-        title: "Trusted Growth",
-        text: "Growth becomes stronger when built on trust and quality.",
+        title: "300+ Hospitals",
+        text: "Strong relationships with hospitals and healthcare providers across the region.",
       },
       {
-        title: "Future Ready",
-        text: "Modern businesses must stay adaptable and innovative.",
+        title: "Future Expansion",
+        text: "Exploring new product categories under the PRATHVI brand to meet evolving healthcare needs.",
       },
     ],
 
     content: [
-      "Strong businesses are built with clear vision, disciplined execution and long-term purpose.",
-      "Every business under the group reflects a commitment to trust, quality and responsibility.",
-      "As industries evolve, our focus remains on building enterprises that are reliable and future-ready.",
+      "For more than a decade, Jesta Healthcare has supported hospitals and healthcare providers across Karnataka with dependable medical products and services.",
+      "As healthcare requirements continue to evolve, the company is evaluating new opportunities in advanced wound care, infection prevention, patient safety, neonatal care, diagnostics and rehabilitation solutions.",
+      "Through its PRATHVI brand, Jesta Healthcare aims to strengthen its contribution to the healthcare ecosystem by focusing on quality, accessibility and innovation.",
+      "Backed by strong hospital partnerships and industry experience, the company remains committed to building sustainable healthcare solutions that improve patient outcomes and support healthcare professionals.",
     ],
 
     quote:
-      "Sustainable growth is built when vision, people and purpose move together.",
+      "Healthcare innovation begins with understanding tomorrow's needs while serving today's patients.",
   },
 
   {
