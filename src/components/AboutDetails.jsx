@@ -3,7 +3,7 @@ import Leadership from "./Leadership";
 import Values from "./Values";
 import VisionMission from "./VisionMission";
 import videoabout from "../assets/about.gif";
-import who from "../assets/who.JPG";
+import who from "../assets/group5.webp";
 
 function AboutDetails() {
   return (
@@ -16,7 +16,7 @@ function AboutDetails() {
           <h1>Building Excellence Across Industries</h1>
           <p>
             Delivering excellence across Pest Management, IT Solutions,
-            Healthcare, Construction and Film Production.
+            Healthcare, Interior and Film Production.
           </p>
         </div>
       </section>

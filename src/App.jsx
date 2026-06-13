@@ -23,6 +23,7 @@ import PrivacyPolicy from "./components/PrivacyPolicy";
 import TermsConditions from "./components/Terms";
 import RefundPolicy from "./components/RefundPolicy";
 import ShippingPolicy from "./components/ShippingPolicy";
+import TeamMoments from "./components/TeamMoments";
 
 function App() {
   const location = useLocation();
@@ -64,6 +65,7 @@ function App() {
         <Route path="/terms" element={<TermsConditions />} />
         <Route path="/refund" element={<RefundPolicy />} />
         <Route path="/shipping-policy" element={<ShippingPolicy />} />
+        {/* <Route path="/team" element={<TeamMoments />} /> */}
       </Routes>
       {!(
         location.pathname.startsWith("/insights") ||

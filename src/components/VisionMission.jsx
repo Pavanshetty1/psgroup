@@ -15,12 +15,12 @@ function VisionMission() {
             <FaBullseye />
           </div>
 
-          <h3>Our Vision</h3>
-
-          <p>
-            To become a trusted and diversified group recognised for excellence,
-            innovation, and sustainable growth across industries.
-          </p>
+          <h3>
+            To become a trusted and <strong>diversified group </strong>
+            recognised for excellence, innovation, and sustainable growth across
+            industries.
+          </h3>
+          <p>Our Vision</p>
         </div>
 
         <div className="vision-card" data-aos="fade-up" data-aos-delay="200">
@@ -28,13 +28,14 @@ function VisionMission() {
             <FaRocket />
           </div>
 
-          <h3>Our Mission</h3>
+          <h3>
+            {" "}
+            To deliver <strong> quality-driven solutions,</strong> build
+            long-term partnerships, and create meaningful value for customers,
+            businesses, and communities.
+          </h3>
 
-          <p>
-            To deliver quality-driven solutions, build long-term partnerships,
-            and create meaningful value for customers, businesses, and
-            communities.
-          </p>
+          <p>Our Mission</p>
         </div>
       </div>
     </section>

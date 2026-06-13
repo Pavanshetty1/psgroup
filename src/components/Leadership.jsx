@@ -1,5 +1,5 @@
 import "./Leadership.css";
-import founder from "../assets/direct.png";
+import founder from "../assets/direct.webp";
 
 const leaders = [
   {

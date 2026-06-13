@@ -1,9 +1,9 @@
 import "./About.css";
-import who1 from "../assets/one.JPG";
-import who2 from "../assets/two.JPG";
-import who3 from "../assets/three.JPG";
-import who4 from "../assets/four.JPG";
-import who5 from "../assets/five.JPG";
+import who5 from "../assets/ing5.webp";
+import who1 from "../assets/two2.webp";
+import who3 from "../assets/three.webp";
+import who4 from "../assets/four.webp";
+import who2 from "../assets/one.webp";
 
 import { useNavigate } from "react-router-dom";
 function About() {
@@ -15,9 +15,9 @@ function About() {
           <span className="about-label">ABOUT PS GROUP</span>
 
           <h2>
-            Building Excellence Across
+            Building Better Lives
             <br />
-            Multiple Industries
+            Through Excellence
           </h2>
 
           <p>

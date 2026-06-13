@@ -35,11 +35,7 @@ import pest from "../assets/pest1.webp";
 //     hash: "film-production",
 //     image: film,
 //   },
-//   // {
-//   //   title: "Enterprise",
-//   //   hash: "enterprise",
-//   //   image: enterprise,
-//   // },
+
 //   // {
 //   //   title: "Incense Sticks",
 //   //   hash: "Manufacture",
@@ -76,6 +72,12 @@ const businesses = [
     hash: "film-production",
     image: film,
     description: "Creative production and visual storytelling.",
+  },
+  {
+    title: "Enterprise",
+    hash: "enterprise",
+    image: enterprise,
+    description: "A diversified enterprise focused on impact and Growth.",
   },
 ];
 function Businesses() {

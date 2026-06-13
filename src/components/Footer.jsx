@@ -9,7 +9,7 @@ import {
 import { FiSend } from "react-icons/fi";
 import { SiOpenai } from "react-icons/si";
 import { SiGooglegemini } from "react-icons/si";
-import perplexity from "../assets/perplexity.png";
+import perplexity from "../assets/perplexity.webp";
 import logo from "../assets/pslogo2.svg";
 
 function Footer() {
@@ -69,10 +69,10 @@ function Footer() {
         <div className="footer-col">
           <h4>CAREERS & INFO</h4>
           <a href="/careers">Careers</a>
-            <a href="/privacy">Privacy Policy</a>
-            <a href="/terms">Terms & Conditions</a>
-            <a href="/refund">Refund Policy</a>
-            <a href="/shipping-policy">Shipping Policy</a>
+          <a href="/privacy">Privacy Policy</a>
+          <a href="/terms">Terms & Conditions</a>
+          <a href="/refund">Refund Policy</a>
+          <a href="/shipping-policy">Shipping Policy</a>
         </div>
 
         <div className="footer-newsletter">

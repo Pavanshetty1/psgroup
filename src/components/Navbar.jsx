@@ -40,7 +40,10 @@ function Navbar() {
             Careers
           </Link>
 
-          <Link to="/" onClick={goToContact}>
+          {/* <Link to="/team" onClick={closeMenu}>
+            Team Moments
+          </Link> */}
+          <Link to="/#contact" onClick={goToContact}>
             Contact
           </Link>
 

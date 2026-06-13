@@ -1,0 +1,202 @@
+.team-moments {
+  position: relative;
+  overflow: hidden;
+
+  padding: 100px 70px;
+
+  background:
+    radial-gradient(
+      circle at top right,
+      rgba(212, 166, 74, 0.08),
+      transparent 35%
+    ),
+    radial-gradient(
+      circle at bottom left,
+      rgba(12, 56, 128, 0.22),
+      transparent 45%
+    ),
+    linear-gradient(120deg, #020816 0%, #03152f 35%, #082654 70%, #122a50 100%);
+}
+
+.team-moments::before {
+  content: "";
+  position: absolute;
+  top: -250px;
+  right: -150px;
+
+  width: 700px;
+  height: 700px;
+
+  background: radial-gradient(
+    circle,
+    rgba(212, 166, 74, 0.08),
+    transparent 70%
+  );
+
+  pointer-events: none;
+}
+
+.team-moments::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.015),
+    transparent
+  );
+
+  pointer-events: none;
+}
+
+.moments-heading {
+  position: relative;
+  z-index: 2;
+
+  max-width: 750px;
+  margin-bottom: 60px;
+}
+
+.moments-heading span {
+  display: block;
+
+  color: #d4a64a;
+
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+  margin-bottom: 15px;
+}
+
+.moments-heading h2 {
+  color: #fff;
+
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 1.1;
+
+  margin-bottom: 20px;
+}
+
+.moments-heading p {
+  color: rgba(255, 255, 255, 0.75);
+
+  font-size: 16px;
+  line-height: 1.9;
+
+  max-width: 650px;
+}
+
+.moments-heading::after {
+  content: "";
+
+  display: block;
+
+  width: 80px;
+  height: 2px;
+
+  margin-top: 25px;
+
+  background: #d4a64a;
+}
+
+.moments-grid {
+  position: relative;
+  z-index: 2;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.moment-card {
+  background: rgba(255, 255, 255, 0.03);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  border-radius: 22px;
+
+  overflow: hidden;
+
+  backdrop-filter: blur(10px);
+
+  transition: all 0.4s ease;
+}
+
+.moment-card:hover {
+  transform: translateY(-8px);
+
+  border-color: rgba(212, 166, 74, 0.4);
+
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+}
+
+.moment-img {
+  height: 280px;
+  overflow: hidden;
+  background: #06162d;
+}
+
+.moment-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+}
+
+.moment-card:hover .moment-img img {
+  transform: scale(1.08);
+}
+
+.moment-content {
+  padding: 24px;
+}
+
+.moment-content h3 {
+  color: #fff;
+
+  font-size: 24px;
+  font-weight: 500;
+
+  margin-bottom: 12px;
+}
+
+.moment-content p {
+  color: rgba(255, 255, 255, 0.7);
+
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+@media (max-width: 1100px) {
+  .moments-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .moments-heading h2 {
+    font-size: 46px;
+  }
+}
+
+@media (max-width: 768px) {
+  .team-moments {
+    padding: 70px 20px;
+  }
+
+  .moments-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .moments-heading h2 {
+    font-size: 38px;
+  }
+
+  .moment-img {
+    height: 240px;
+  }
+}

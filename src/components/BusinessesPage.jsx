@@ -1,16 +1,19 @@
 import "./BusinessesPage.css";
-import pestLogo from "../assets/pest-logo.png";
-import itLogo from "../assets/pest-logo.png";
-import healthcareLogo from "../assets/pest-logo.png";
-import constructionLogo from "../assets/pest-logo.png";
-import filmLogo from "../assets/pest-logo.png";
+import pestLogo from "../assets/pest-logo.webp";
+import itLogo from "../assets/pest-logo.webp";
+import healthcareLogo from "../assets/pest-logo.webp";
+import constructionLogo from "../assets/pest-logo.webp";
+import filmLogo from "../assets/pest-logo.webp";
 import bestservebusi from "../assets/bestservebusi.jfif";
 import ittech from "../assets/ittech.jfif";
 import movie from "../assets/movie.avif";
 import jesta from "../assets/jesta.jfif";
 import atelier from "../assets/atelier.avif";
-
 import videoabout from "../assets/about.gif";
+import adhvi from "../assets/adhvi.webp";
+import enterprise from "../assets/enterprise.jfif";
+import jestaone from "../assets/jestatwo.jfif";
+
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
@@ -27,7 +30,7 @@ const businessGroups = [
   },
 
   {
-    logo: "https://jestahealthcare.com/wp-content/uploads/2024/08/Jesta-healthcare-logo.png",
+    logo: jestaone,
     title: "Jesta Healthcare",
     category: "Healthcare",
     learnmore: "https://www.google.com/",
@@ -47,8 +50,8 @@ const businessGroups = [
       "Creating inspiring interior spaces through thoughtful design, premium craftsmanship and functional planning, delivering environments that combine aesthetics, comfort and lasting value.",
   },
   {
-    logo: "https://www.adhvicreations.com/js/page/psg.png",
-    title: "Advi Creations",
+    logo: adhvi,
+    title: "Adhvi Creations",
     category: "Film Production",
     learnmore: "https://www.adhvicreations.com/",
     hash: "film-production",
@@ -66,16 +69,16 @@ const businessGroups = [
     description:
       "Empowering businesses with innovative technology solutions, including software development, ERP, CRM, web platforms and digital transformation services designed to improve efficiency and accelerate growth.",
   },
-  // {
-  //   logo: "enterpriseLogo",
-  //   title: "Samruddhi Enterprises",
-  //   category: "Distribution & Trading",
-  //   learnmore: "#",
-  //   hash: "samruddhi-enterprises",
-  //   image: movie,
-  //   description:
-  //     "Samruddhi Enterprises is a trusted dealer and distributor of leading consumer products across the Udupi region, ensuring efficient supply, reliable distribution networks and quality service to retailers, businesses and customers.",
-  // },
+  {
+    logo: "",
+    title: "Samruddhi Enterprises",
+    category: "Distribution & Trading",
+    learnmore: "#",
+    hash: "enterprise",
+    image: enterprise,
+    description:
+      "Samruddhi Enterprises is a trusted dealer and distributor of leading consumer products across the Udupi region, ensuring efficient supply, reliable distribution networks and quality service to retailers, businesses and customers.",
+  },
   // {
   //   logo: "incenseLogo",
   //   title: "Incense Products",
@@ -114,10 +117,10 @@ function BusinessesPage() {
         <div className="business-overlay"></div>
 
         <div className="business-hero-content" data-aos="fade-up">
-          <h1>Driving Growth Across Multiple Industries</h1>
+          <h1>Driving Progress Through Innovation</h1>
           <p>
-            From Pest Management to IT Solutions, Healthcare, Construction and
-            Film Production.
+            From Pest Management to IT Solutions, Healthcare, Interior and Film
+            Production.
           </p>
         </div>
       </section>
@@ -134,7 +137,9 @@ function BusinessesPage() {
             </div>
 
             <div className="business-showcase-content" data-aos="fade-up">
-              <img src={business.logo} alt={business.title} />
+              {business.logo && (
+                <img src={business.logo} alt={business.title} />
+              )}
 
               <h2>{business.title}</h2>
               <p>{business.description}</p>

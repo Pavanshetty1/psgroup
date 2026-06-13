@@ -92,7 +92,9 @@
   position: absolute;
   left: 26px;
   right: 26px;
-  bottom: 28px;
+  /* bottom: 28px;
+   */
+  top: 183px;
   z-index: 3;
   color: white;
 }
@@ -125,7 +127,7 @@
 .business-overlay h3 {
   font-size: 24px;
   margin-bottom: 12px;
-  white-space: nowrap;
+  /* white-space: nowrap;  */
   transition: 0.4s ease;
 }
 

@@ -35,16 +35,17 @@ const slides = [
     image: film,
     company: "Adhvi Creations",
   },
+  {
+    title: "Creating Businesses That Shape Tomorrow",
+    image: enterprise,
+    company: "Samradhi Enterprises",
+  },
+  // {
+  //   title: "INCENSE STICK",
+  //   image: incensestick,
+  // },
 ];
 
-// {
-//   title: "ENTERPRISE",
-//   image: enterprise,
-// },
-// {
-//   title: "INCENSE STICK",
-//   image: incensestick,
-// },
 //];
 
 function Home() {
@@ -72,11 +73,7 @@ function Home() {
         <div className="hero-overlay"></div>
 
         <div className="hero-content">
-          <h1
-             className="ps-title"
-          >
-            PS GROUP
-          </h1>
+          <h1 className="ps-title">PS GROUP</h1>
 
           <h1 className="hero-title">
             <span key={slides[current].title} className="changing-text">
