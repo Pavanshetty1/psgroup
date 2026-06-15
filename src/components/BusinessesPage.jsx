@@ -12,7 +12,7 @@ import atelier from "../assets/atelier.avif";
 import videoabout from "../assets/about.gif";
 import adhvi from "../assets/adhvi.webp";
 import enterprise from "../assets/enterprise.jfif";
-import jestaone from "../assets/jestatwo.jfif";
+import jestaone from "../assets/jestanew1.png";
 
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
@@ -33,7 +33,7 @@ const businessGroups = [
     logo: jestaone,
     title: "Jesta Healthcare",
     category: "Healthcare",
-    learnmore: "https://www.google.com/",
+    learnmore: "https://jestahealthcare.com/",
     hash: "healthcare",
     image: jesta,
     description:
