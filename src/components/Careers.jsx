@@ -70,8 +70,8 @@ function Careers() {
         <p>
           At PS Group, we believe our people are our greatest strength. We
           provide opportunities to learn, collaborate and contribute across
-          diverse businesses including Pest Management, IT Solutions,
-          Healthcare, Interiors, Film Production and Distribution.
+          diverse businesses including Pest Management, Healthcare, Interiors,
+          Film Production , Enterprises , FMCG and IT Solutions.
         </p>
       </section>
 

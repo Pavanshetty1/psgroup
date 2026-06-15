@@ -60,10 +60,13 @@ function Footer() {
         <div className="footer-col">
           <h4>BUSINESSES</h4>
           <a href="/businesses">Pest Management</a>
-          <a href="/businesses">IT Solutions</a>
           <a href="/businesses">Healthcare</a>
           <a href="/businesses">Interior</a>
           <a href="/businesses">Film Production</a>
+          <a href="/businesses">Enterprises</a>
+          <a href="/businesses">FMCG</a>
+
+          <a href="/businesses">IT Solutions</a>
         </div>
 
         <div className="footer-col">

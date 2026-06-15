@@ -13,10 +13,10 @@ function AboutDetails() {
         <div className="about-details-overlay"></div>
 
         <div className="about-details-content" data-aos="fade-up">
-          <h1>Building Excellence Across Industries</h1>
+          <h1>A Legacy of Growth and Innovation</h1>
           <p>
-            Delivering excellence across Pest Management, IT Solutions,
-            Healthcare, Interior and Film Production.
+            Delivering excellence across Pest Management, Healthcare, Interior ,
+            Film Production, Enterprises , FMCG and IT Solutions.
           </p>
         </div>
       </section>
@@ -34,8 +34,8 @@ function AboutDetails() {
             </p>
 
             <p>
-              With businesses spanning Pest Management, IT Solutions,
-              Healthcare, Construction and Film Production, the group is built
+              With businesses spanning Pest Management, Healthcare, Interior ,
+              Film Production , Enterprises , FMCG and IT Solutions the group is built
               on trust, professionalism, innovation and customer commitment.
             </p>
           </div>

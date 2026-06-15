@@ -8,6 +8,7 @@ import health from "../assets/health.avif";
 import enterprise from "../assets/enterprise.jfif";
 import interior from "../assets/interior.jfif";
 import pest from "../assets/pest1.webp";
+import fmcg from "../assets/fmcg.jfif";
 
 const slides = [
   {
@@ -31,15 +32,21 @@ const slides = [
     image: film,
     company: "Adhvi Creations",
   },
-  {
-    title: "Powering Digital Transformation",
-    image: itsolution,
-    company: "Jesta Infotech",
-  },
+
   {
     title: "Creating Businesses That Shape Tomorrow",
     image: enterprise,
     company: "Samradhi Enterprises",
+  },
+  {
+    title: "Bringing everyday essentials to every home",
+    image: fmcg,
+    company: "FMCG",
+  },
+  {
+    title: "Powering Digital Transformation",
+    image: itsolution,
+    company: "Jesta Infotech",
   },
   // {
   //   title: "INCENSE STICK",

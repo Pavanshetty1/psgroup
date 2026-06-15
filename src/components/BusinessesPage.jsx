@@ -13,6 +13,7 @@ import videoabout from "../assets/about.gif";
 import adhvi from "../assets/adhvi.webp";
 import enterprise from "../assets/enterprise.jfif";
 import jestaone from "../assets/jestanew1.png";
+import fmcg from "../assets/fmcg.jfif";
 
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
@@ -59,16 +60,7 @@ const businessGroups = [
     description:
       "Bringing stories and ideas to life through creative film production, visual storytelling and media solutions that engage audiences, strengthen brands and deliver meaningful experiences.",
   },
-  {
-    logo: "https://www.psgindia.co.in/wp-content/uploads/2025/04/jesta-info.webp",
-    title: "Jesta Infotech",
-    category: "IT Solutions",
-    learnmore: "https://www.google.com/",
-    hash: "it-solutions",
-    image: ittech,
-    description:
-      "Empowering businesses with innovative technology solutions, including software development, ERP, CRM, web platforms and digital transformation services designed to improve efficiency and accelerate growth.",
-  },
+
   {
     logo: "",
     title: "Samruddhi Enterprises",
@@ -78,6 +70,26 @@ const businessGroups = [
     image: enterprise,
     description:
       "Samruddhi Enterprises is a trusted dealer and distributor of leading consumer products across the Udupi region, ensuring efficient supply, reliable distribution networks and quality service to retailers, businesses and customers.",
+  },
+  {
+    logo: "",
+    title: "FMCG",
+    category: "Consumer Goods",
+    learnmore: "#",
+    hash: "fmcg",
+    image: fmcg,
+    description:
+      "Delivering trusted consumer products through efficient distribution networks, ensuring retailers and businesses have reliable access to quality essentials that support everyday living and customer satisfaction.",
+  },
+  {
+    logo: "https://www.psgindia.co.in/wp-content/uploads/2025/04/jesta-info.webp",
+    title: "Jesta Infotech",
+    category: "IT Solutions",
+    learnmore: "https://www.google.com/",
+    hash: "it-solutions",
+    image: ittech,
+    description:
+      "Empowering businesses with innovative technology solutions, including software development, ERP, CRM, web platforms and digital transformation services designed to improve efficiency and accelerate growth.",
   },
   // {
   //   logo: "incenseLogo",
@@ -119,8 +131,8 @@ function BusinessesPage() {
         <div className="business-hero-content" data-aos="fade-up">
           <h1>Driving Progress Through Innovation</h1>
           <p>
-            From Pest Management to IT Solutions, Healthcare, Interior and Film
-            Production.
+            From Pest Management to Healthcare, Interior and Film Production
+            , Enterprise , FMCG and IT Solutions.
           </p>
         </div>
       </section>

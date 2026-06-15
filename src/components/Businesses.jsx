@@ -8,6 +8,8 @@ import health from "../assets/health.avif";
 import enterprise from "../assets/enterprise.jfif";
 import interior from "../assets/interior.jfif";
 import pest from "../assets/pest1.webp";
+import fmcg from "../assets/fmcg.jfif";
+
 
 // const businesses = [
 //   {
@@ -49,12 +51,7 @@ const businesses = [
     image: pest,
     description: "Safe and reliable pest control solutions.",
   },
-  {
-    title: "IT Solutions",
-    hash: "it-solutions",
-    image: itsolution,
-    description: "Digital platforms, ERP, CRM and software services.",
-  },
+
   {
     title: "Healthcare",
     hash: "healthcare",
@@ -78,6 +75,18 @@ const businesses = [
     hash: "enterprise",
     image: enterprise,
     description: "A diversified enterprise focused on impact and Growth.",
+  },
+  {
+    title: "FMCG",
+    hash: "fmcg",
+    image: fmcg,
+    description: "Delivering quality products for everyday life",
+  },
+  {
+    title: "IT Solutions",
+    hash: "it-solutions",
+    image: itsolution,
+    description: "Digital platforms, ERP, CRM and software services.",
   },
 ];
 function Businesses() {

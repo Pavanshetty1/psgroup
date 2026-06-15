@@ -22,8 +22,8 @@ function About() {
 
           <p>
             PS Group is a diversified business group delivering excellence
-            across Pest Management, IT Solutions, Healthcare, Interior and Film
-            Production.
+            across Pest Management, Healthcare, Interior and Film Production,
+            Enterprises , FMCG and IT Solutions .
           </p>
 
           <p>

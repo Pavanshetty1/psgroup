@@ -6,17 +6,17 @@ import projects from "../assets/projects.jfif";
 
 const stats = [
   {
-    number: "5+",
+    number: "7+",
     label: "Business Sectors",
     image: sector,
   },
   {
-    number: "100+",
+    number: "1000+",
     label: "Projects Delivered",
     image: projects,
   },
   {
-    number: "1000+",
+    number: "1000000+",
     label: "Satisfied Clients",
     image: clients,
   },
@@ -32,7 +32,7 @@ function Glance() {
     <section className="glance-section" id="glance" data-aos="fade-right">
       <div className="glance-header">
         <span>GROUP AT A GLANCE</span>
-        <h2>Building Growth Across Industries</h2>
+        <h2>Transforming Ideas Into Impact</h2>
         <p>
           A diversified group committed to quality, innovation, and long-term
           value creation across multiple business sectors.
