@@ -15,11 +15,7 @@ const slides = [
     image: pest,
     company: "Bestserve Pest Management Pvt Ltd",
   },
-  {
-    title: "Powering Digital Transformation",
-    image: itsolution,
-    company: "Jesta Infotech",
-  },
+
   {
     title: "Care Beyond Treatment",
     image: health,
@@ -34,6 +30,11 @@ const slides = [
     title: "Bringing Stories to Life",
     image: film,
     company: "Adhvi Creations",
+  },
+  {
+    title: "Powering Digital Transformation",
+    image: itsolution,
+    company: "Jesta Infotech",
   },
   {
     title: "Creating Businesses That Shape Tomorrow",
