@@ -11,7 +11,7 @@ import jesta from "../assets/jesta.jfif";
 import atelier from "../assets/atelier.avif";
 import psventure from "../assets/psventure.avif";
 // import videoabout from "../assets/businew.gif";
-import videoabout from "../assets/businessnew3.mp4";
+import videoabout from "../assets/businessnew3.webm";
 
 import adhvi from "../assets/adhvi.webp";
 import enterprise from "../assets/enterprise.jfif";
@@ -128,7 +128,7 @@ function BusinessesPage() {
       <section className="business-hero">
         {/* <img src={videoabout} alt="About Background" className="about-gif" /> */}
         <video className="about-gif" autoPlay muted loop playsInline>
-          <source src={videoabout} type="video/mp4" />
+          <source src={videoabout} type="video/webm" />
           Your browser does not support the video tag.
         </video>
         <div className="about-detailss-overlay"></div>

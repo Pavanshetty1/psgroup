@@ -1,5 +1,5 @@
 import "./Careers.css";
-import careersVideo from "../assets/careers.mp4";
+import careersVideo from "../assets/careers.webm";
 
 function Careers() {
   const roles = [
@@ -44,7 +44,7 @@ function Careers() {
     <main className="careers-page">
       <section className="careers-hero">
         <video className="careers-hero-video" autoPlay muted loop playsInline>
-          <source src={careersVideo} type="video/mp4" />
+          <source src={careersVideo} type="video/webm" />
         </video>
 
         <div className="careers-overlay"></div>

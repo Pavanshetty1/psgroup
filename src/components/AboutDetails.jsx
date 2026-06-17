@@ -2,7 +2,7 @@ import "./AboutDetails.css";
 import Leadership from "./Leadership";
 import Values from "./Values";
 import VisionMission from "./VisionMission";
-import videoabout from "../assets/aboutnew2.mp4";
+import videoabout from "../assets/aboutnew2.webm";
 import who from "../assets/group5.webp";
 import { useEffect, useRef } from "react";
 function AboutDetails() {
@@ -25,7 +25,7 @@ function AboutDetails() {
           loop
           playsInline
         >
-          <source src={videoabout} type="video/mp4" />
+          <source src={videoabout} type="video/webm" />
           Your browser does not support the video tag.
         </video>
         <div className="about-details-overlay"></div>
