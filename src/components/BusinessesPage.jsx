@@ -11,7 +11,7 @@ import jesta from "../assets/jesta.jfif";
 import atelier from "../assets/atelier.avif";
 import psventure from "../assets/psventure.avif";
 // import videoabout from "../assets/businew.gif";
-import videoabout from "../assets/businew2.mp4";
+import videoabout from "../assets/businessnew3.mp4";
 
 import adhvi from "../assets/adhvi.webp";
 import enterprise from "../assets/enterprise.jfif";
