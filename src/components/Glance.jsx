@@ -11,12 +11,12 @@ const stats = [
     image: sector,
   },
   {
-    number: "1000+",
+    number: "1,000+",
     label: "Projects Delivered",
     image: projects,
   },
   {
-    number: "1000000+",
+    number: "10,00,000+",
     label: "Satisfied Clients",
     image: clients,
   },

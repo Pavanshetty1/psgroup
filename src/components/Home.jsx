@@ -9,6 +9,7 @@ import enterprise from "../assets/enterprise.jfif";
 import interior from "../assets/interior.jfif";
 import pest from "../assets/pest1.webp";
 import fmcg from "../assets/fmcg.jfif";
+import psventure from "../assets/psventure.avif";
 
 const slides = [
   {
@@ -35,8 +36,8 @@ const slides = [
 
   {
     title: "Creating Businesses That Shape Tomorrow",
-    image: enterprise,
-    company: "Samradhi Enterprises",
+    image: psventure,
+    company: "PS Ventures",
   },
   {
     title: "Bringing everyday essentials to every home",

@@ -9,7 +9,10 @@ import ittech from "../assets/ittech.jfif";
 import movie from "../assets/movie.avif";
 import jesta from "../assets/jesta.jfif";
 import atelier from "../assets/atelier.avif";
-import videoabout from "../assets/about.gif";
+import psventure from "../assets/psventure.avif";
+// import videoabout from "../assets/businew.gif";
+import videoabout from "../assets/businew2.mp4";
+
 import adhvi from "../assets/adhvi.webp";
 import enterprise from "../assets/enterprise.jfif";
 import jestaone from "../assets/jestanew1.png";
@@ -63,17 +66,17 @@ const businessGroups = [
 
   {
     logo: "",
-    title: "Samruddhi Enterprises",
+    title: "PS Ventures",
     category: "Distribution & Trading",
     learnmore: "#",
     hash: "enterprise",
-    image: enterprise,
+    image: psventure,
     description:
-      "Samruddhi Enterprises is a trusted dealer and distributor of leading consumer products across the Udupi region, ensuring efficient supply, reliable distribution networks and quality service to retailers, businesses and customers.",
+      "PS Ventures is dedicated to building and promoting innovative business ventures through strategic investments, creative advertising, and growth-driven solutions that empower brands and businesses to thrive.",
   },
   {
     logo: "",
-    title: "FMCG",
+    title: "Samruddhi Enterprises - FMCG",
     category: "Consumer Goods",
     learnmore: "#",
     hash: "fmcg",
@@ -123,16 +126,20 @@ function BusinessesPage() {
   return (
     <main className="business-page">
       <section className="business-hero">
-        <img src={videoabout} alt="About Background" className="about-gif" />
-        <div className="about-details-overlay"></div>
+        {/* <img src={videoabout} alt="About Background" className="about-gif" /> */}
+        <video className="about-gif" autoPlay muted loop playsInline>
+          <source src={videoabout} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div className="about-detailss-overlay"></div>
 
         <div className="business-overlay"></div>
 
         <div className="business-hero-content" data-aos="fade-up">
           <h1>Driving Progress Through Innovation</h1>
           <p>
-            From Pest Management to Healthcare, Interior and Film Production
-            , Enterprise , FMCG and IT Solutions.
+            From Pest Management to Healthcare, Interior and Film Production ,
+            Enterprise , FMCG and IT Solutions.
           </p>
         </div>
       </section>

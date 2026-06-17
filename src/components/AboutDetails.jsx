@@ -2,14 +2,32 @@ import "./AboutDetails.css";
 import Leadership from "./Leadership";
 import Values from "./Values";
 import VisionMission from "./VisionMission";
-import videoabout from "../assets/about.gif";
+import videoabout from "../assets/aboutnew2.mp4";
 import who from "../assets/group5.webp";
-
+import { useEffect, useRef } from "react";
 function AboutDetails() {
+  // const videoRef = useRef(null);
+  // useEffect(() => {
+  //   if (videoRef.current) {
+  //     videoRef.current.playbackRate = 0.5;
+  //   }
+  // });
+
   return (
     <main className="about-details-page">
       <section className="about-details-hero">
-        <img src={videoabout} alt="About Background" className="about-gif" />
+        {/* <img src={videoabout} alt="About Background" className="about-gif" /> */}
+        <video
+          className="about-gif"
+          // ref={videoRef}
+          autoPlay
+          muted
+          loop
+          playsInline
+        >
+          <source src={videoabout} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
         <div className="about-details-overlay"></div>
 
         <div className="about-details-content" data-aos="fade-up">
@@ -35,8 +53,9 @@ function AboutDetails() {
 
             <p>
               With businesses spanning Pest Management, Healthcare, Interior ,
-              Film Production , Enterprises , FMCG and IT Solutions the group is built
-              on trust, professionalism, innovation and customer commitment.
+              Film Production , Enterprises , FMCG and IT Solutions the group is
+              built on trust, professionalism, innovation and customer
+              commitment.
             </p>
           </div>
 

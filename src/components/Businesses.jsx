@@ -9,7 +9,7 @@ import enterprise from "../assets/enterprise.jfif";
 import interior from "../assets/interior.jfif";
 import pest from "../assets/pest1.webp";
 import fmcg from "../assets/fmcg.jfif";
-
+import psventure from "../assets/psventure.avif";
 
 // const businesses = [
 //   {
@@ -73,7 +73,7 @@ const businesses = [
   {
     title: "Enterprise",
     hash: "enterprise",
-    image: enterprise,
+    image: psventure,
     description: "A diversified enterprise focused on impact and Growth.",
   },
   {
