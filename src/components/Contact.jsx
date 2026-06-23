@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./Contact.css";
 import { FiPhone, FiMail, FiMapPin, FiArrowUpRight } from "react-icons/fi";
+import { API_URL } from "../config/api";
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -28,7 +29,7 @@ function Contact() {
     setStatus("");
 
     try {
-     const response = await fetch(`${API_URL}/api/contact`, {
+      const response = await fetch(`${API_URL}/api/contact`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -52,6 +53,7 @@ function Contact() {
         setStatus(data.message);
       }
     } catch (error) {
+      console.error(error);
       setStatus("Failed to send message. Please try again.");
     } finally {
       setLoading(false);

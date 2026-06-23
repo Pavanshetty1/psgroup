@@ -2,6 +2,7 @@ import "./BusinessesPage.css";
 import pestLogo from "../assets/pest-logo.webp";
 import itLogo from "../assets/pest-logo.webp";
 import healthcareLogo from "../assets/pest-logo.webp";
+import atelierLogo from "../assets/111.png";
 import constructionLogo from "../assets/pest-logo.webp";
 import filmLogo from "../assets/pest-logo.webp";
 import bestservebusi from "../assets/bestservebusi.jfif";
@@ -44,7 +45,7 @@ const businessGroups = [
       "Committed to enhancing healthcare outcomes through quality-driven services, trusted medical solutions and a patient-centric approach focused on accessibility, reliability and long-term well-being.",
   },
   {
-    logo: "https://atelierprogetto.com/logo/atelier-mark.svg",
+    logo: atelierLogo,
     title: "Atelier",
     category: "Interior",
     learnmore: "https://atelierprogetto.com/",
@@ -85,7 +86,7 @@ const businessGroups = [
       "Delivering trusted consumer products through efficient distribution networks, ensuring retailers and businesses have reliable access to quality essentials that support everyday living and customer satisfaction.",
   },
   {
-    logo: "https://www.psgindia.co.in/wp-content/uploads/2025/04/jesta-info.webp",
+    logo: "",
     title: "Jesta Infotech",
     category: "IT Solutions",
     learnmore: "https://www.google.com/",
