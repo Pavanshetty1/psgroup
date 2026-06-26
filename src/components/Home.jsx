@@ -2,13 +2,13 @@ import { useEffect, useState } from "react";
 import "./Home.css";
 import pestManage from "../assets/pestmanage.avif";
 import itsolution from "../assets/itsolution.avif";
-import incensestick from "../assets/incensestick.jfif";
+import incensestick from "../assets/incensestick.webp";
 import film from "../assets/film.avif";
 import health from "../assets/health.avif";
-import enterprise from "../assets/enterprise.jfif";
-import interior from "../assets/interior.jfif";
+import enterprise from "../assets/enterprise.webp";
+import interior from "../assets/interior.webp";
 import pest from "../assets/pest1.webp";
-import fmcg from "../assets/fmcg.jfif";
+import fmcg from "../assets/fmcg.webp";
 import psventure from "../assets/psventure.avif";
 
 const slides = [

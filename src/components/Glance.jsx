@@ -1,8 +1,8 @@
 import "./Glance.css";
 import sector from "../assets/sector.avif";
-import clients from "../assets/clients.jfif";
+import clients from "../assets/clients.webp";
 import years from "../assets/years.avif";
-import projects from "../assets/projects.jfif";
+import projects from "../assets/projects.webp";
 
 const stats = [
   {

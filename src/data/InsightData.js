@@ -3,7 +3,7 @@ export const insights = [
     slug: "jesta-healthcare-expansion",
 
     image:
-      "https://png.pngtree.com/thumb_back/fh260/background/20240426/pngtree-a-doctor-examining-patient-vital-signs-in-medical-office-image_15672199.jpg",
+      "https://webp.webptree.com/thumb_back/fh260/background/20240426/webptree-a-doctor-examining-patient-vital-signs-in-medical-office-image_15672199.jpg",
 
     articleImage:
       "https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg",
