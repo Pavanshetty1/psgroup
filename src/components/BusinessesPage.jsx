@@ -2,7 +2,9 @@ import "./BusinessesPage.css";
 import pestLogo from "../assets/pest-logo.webp";
 import itLogo from "../assets/pest-logo.webp";
 import healthcareLogo from "../assets/pest-logo.webp";
-import atelierLogo from "../assets/111.webp";
+// import atelierLogo from "../assets/111.webp";
+import atelierLogo from "../assets/infiniteatelier.webp";
+
 import constructionLogo from "../assets/pest-logo.webp";
 import filmLogo from "../assets/pest-logo.webp";
 import bestservebusi from "../assets/bestservebusi.webp";
@@ -10,13 +12,14 @@ import ittech from "../assets/ittech.webp";
 import movie from "../assets/movie.avif";
 import jesta from "../assets/jesta.webp";
 import atelier from "../assets/atelier.avif";
+
 import psventure from "../assets/psventure.avif";
 // import videoabout from "../assets/businew.gif";
 import videoabout from "../assets/businessnew3.webm";
 
 import adhvi from "../assets/adhvi.webp";
 import enterprise from "../assets/enterprise.webp";
-import jestaone from "../assets/jestanew1.webp";
+import jestaone from "../assets/jestanew.webp";
 import fmcg from "../assets/fmcg.webp";
 
 import { useEffect } from "react";
