@@ -86,7 +86,7 @@ function Contact() {
             <div className="ps-contact-item">
               <FiPhone />
               <div>
-                <p>+91 7022292417</p>
+                <p>+91 8884442601</p>
               </div>
             </div>
 
