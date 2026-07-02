@@ -3,7 +3,7 @@ import pestLogo from "../assets/pest-logo.webp";
 import itLogo from "../assets/pest-logo.webp";
 import healthcareLogo from "../assets/pest-logo.webp";
 // import atelierLogo from "../assets/111.webp";
-import atelierLogo from "../assets/infiniteatelier.webp";
+import atelierLogo from "../assets/Infiniteatelier.webp";
 
 import constructionLogo from "../assets/pest-logo.webp";
 import filmLogo from "../assets/pest-logo.webp";
